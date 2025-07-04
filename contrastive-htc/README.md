@@ -1,16 +1,20 @@
-# OUR COMMENTS TO THE README FILE:
+# The original code for the model can be found here:
 
-# THE NYT, AND WebOfSciene DATASETS ARE NO LONGER IN DATA FILE
-# THE COMMANDS FOR TESTING AND TRAINING HAVENT BEEN CHANGED
-# NUMBER OF EPOCHS HARDCODED IN THE TRAIN FILE (16)
-# IN ORDER TO RUN THE CODE :
-# 1. DELETE ALL THE XML FILES IN DATA/NLP/FILES
-# 2. PICK DATASET IN THE nlp_data.py FILE (UNCOMMENT THE LINE WITH THE DATASET)
-# 3. RUN nlp_data.py file:
+
+
+- the nyt, and WebOfScience datasets are no longer in the data file
+- the commands for testing and training haven't been changes
+- THE COMMANDS FOR TESTING AND TRAINING HAVENT BEEN CHANGED
+- NUMBER OF EPOCHS HARDCODED IN THE TRAIN FILE (16)
+- 
+# In order to run the code :
+1. Delete all the xml files in Data/nlp/files
+2. Pick the dataset in the nlp_data.py file (uncomment the line with the dataset)
+3. Run nlp_data.py file:
 <!-- python3.8 nlp_data.py -->
-# 3. RUN TRAIN (IN THE SAME WAY AS IN THE PAPER), EXAMLPE:
+4. Run train (in the same way as in the paper), example:
 <!-- python3.8 train.py --name test --batch 3 --data nlp --lamb 0.05 --thre 0.02 --device cpu -->
-# 4. RUN TEST, EXAMPLE:
+5. Run test, example:
 <!-- python3.8 test.py --name nlp-test --device cpu -->
 
 
