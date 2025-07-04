@@ -4,9 +4,8 @@
 
 - the nyt, and WebOfScience datasets are no longer in the data file
 - the commands for testing and training haven't been changes
-- THE COMMANDS FOR TESTING AND TRAINING HAVENT BEEN CHANGED
-- NUMBER OF EPOCHS HARDCODED IN THE TRAIN FILE (16)
-- 
+- number of epochs are hardcoded in the train file (16)
+ 
 # In order to run the code :
 1. Delete all the xml files in Data/nlp/files
 2. Pick the dataset in the nlp_data.py file (uncomment the line with the dataset)
